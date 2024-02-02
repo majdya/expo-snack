@@ -8,7 +8,7 @@ export default function EmojiPicker({ isVisible, onClose, children }) {
             <View style={styles.modalContent}>
                 <View style={styles.titleContainer}>
                     <Text style={styles.title}>Choose a sticker</Text>
-                    <Pressable onPress={onPress}>
+                    <Pressable onPress={onClose}>
                         <MaterialIcons />
                     </Pressable>
                 </View>
